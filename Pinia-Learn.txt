@@ -1,0 +1,44 @@
+Cursos: curso-Pinia
+Author: Net Ninja
+
+## ----- ----- -----
+-- ----- ----- -----
+
+Primeira aula.
+- Passa uma introdução do que é o pinia.
+
+
+-- ----- ----- -----
+
+Segunda aula.
+- Cria um projeto inicial de vue 3 e instala o pinia depois de criar o projeto.
+- Adiciona o css pronto no projeto pois o objetivo principal é a aprendizagem do Pinia
+- Esse projeto usa composition Options
+
+-- ----- ----- -----
+
+Terceira aula.
+
+- Instala o pinia
+- Cria um state para a lista de tarefas
+
+
+
+-- ----- ----- -----
+Quarta aula.
+Props
+foi criada uma propriedade nos objetos done:false e utilizar ela pra passar o tamanho do objetos (courses.length)
+
+-- ----- ----- -----
+
+Quinta aula.
+Props
+foi criada uma propriedade nos objetos done:false e utilizar ela pra passar o tamanho do objetos (courses.length)
+-- ----- ----- -----
+-- ----- ----- -----
+-- ----- ----- -----
+-- ----- ----- -----
+-- ----- ----- -----
+-- ----- ----- -----
+-- ----- ----- -----
+-- ----- ----- -----

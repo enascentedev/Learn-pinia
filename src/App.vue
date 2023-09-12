@@ -1,17 +1,13 @@
 <template>
-  <main>
-
-    <!-- heading -->
-    <header>
-      <img src="https://pinia.vuejs.org/logo.svg" alt="pinia logo">
-      <h1>Pinia Tasks</h1>
-    </header>
-
-  </main>
+	<main>
+		<!-- heading -->
+		<header>
+			<img src="https://pinia.vuejs.org/logo.svg" alt="pinia logo" />
+			<h1>Aprendendo Pinia</h1>
+		</header>
+	</main>
 </template>
 
 <script>
-  export default {
-    
-  }
+export default {};
 </script>
