@@ -32,7 +32,16 @@ Quarta aula.
 
 Quinta aula.
 
--adiciona dois botões no app.vue , All tasks e Fav tasks
+- adiciona dois botões no app.vue , All tasks e Fav tasks cria  condição v-if="filter === 'all'" e v-if="filter === 'favs'".
+- adiciona mais linhas no css
+- cria getters na store 
+-  favCount () :
+// Inicializa o acumulador 'p' com o valor 0.
+		// A função de redução é executada para cada elemento 'c' (tarefa) no array 'tasks'.
+		// Ela verifica se a tarefa atual 'c' é favorita (tem 'isFav' igual a true).
+		// Se for favorita, adiciona 1 ao acumulador 'p', caso contrário, mantém 'p' sem alterações.
+		// Ao final da redução, a função retorna o valor final do acumulador 'p', que é a contagem total de tarefas favoritas.
+
 -- ----- ----- -----
 -- ----- ----- -----
 -- ----- ----- -----
