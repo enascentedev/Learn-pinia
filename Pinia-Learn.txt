@@ -43,6 +43,14 @@ Quinta aula.
 		// Ao final da redução, a função retorna o valor final do acumulador 'p', que é a contagem total de tarefas favoritas.
 
 -- ----- ----- -----
+sexta aula
+
+- criação de componente TaskForm ....
+- chamou componente no app.vue
+- criação de novas classes no css
+- adicionando actions para adicionar tarefas , excluir  e adicionar favoritos
+- adicionado funcionalidade da store para o componente TaskDetails
+
 -- ----- ----- -----
 -- ----- ----- -----
 -- ----- ----- -----
