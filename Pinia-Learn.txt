@@ -60,10 +60,14 @@ setima aula
 oitava aula
 
 - criou o data e adicionou um json com a lista de tarefas
-- adicionou o json server globalmente
+- adicionou o json server globalmente para ter acesso ao json
 - adicionou algumas propriedades css
 
 -- ----- ----- -----
+nona aula
+
+- modificou um item do json
+- modificou todas as actions para async e criou métodos http post, delete e patch
 -- ----- ----- -----
 -- ----- ----- -----
 -- ----- ----- -----
