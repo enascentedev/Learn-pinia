@@ -1,31 +1,37 @@
 # pinia-tasks
 
-This template should help get you started developing with Vue 3 in Vite.
+Projeto para aplicar funcionalidades do pinia
 
-## Recommended IDE Setup
+## IDE recomendada
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Customize configuration
+## Configurações
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## Instalar dependências
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Iniciar projeto
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Compilar para produção
 
 ```sh
 npm run build
+```
+
+### Instalar Json server
+
+```sh
+json-server -w ./data/db.json
 ```
 
 ### Rodar Json server
