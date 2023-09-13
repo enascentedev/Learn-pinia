@@ -27,3 +27,9 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Rodar Json server
+
+```sh
+json-server -w ./data/db.json
+```

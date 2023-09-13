@@ -7,7 +7,7 @@ export const useTaskStore = defineStore("taskStore", {
 	}),
 
 	getters: {
-		//  getter que retorna um array de tarefas favoritas
+		// Getter que retorna um array de tarefas favoritas
 		favs() {
 			return this.tasks.filter((element) => element.isFav);
 		},
@@ -17,7 +17,7 @@ export const useTaskStore = defineStore("taskStore", {
 				return element.isFav ? acc + 1 : acc;
 			}, 0);
 		},
-		//  getter que retorna o número total de tarefas
+		// Getter que retorna o número total de tarefas
 		totalCount: (state) => {
 			return state.tasks.length;
 		},
@@ -26,7 +26,7 @@ export const useTaskStore = defineStore("taskStore", {
 		async getTasks() {
 			this.loading = true;
 
-			// get data do json usando json server
+			// Obtém dados do JSON usando json server
 			const res = await fetch("http://localhost:3000/tasks");
 			const data = await res.json();
 
@@ -61,15 +61,16 @@ export const useTaskStore = defineStore("taskStore", {
 		async toggleFav(id) {
 			const task = this.tasks.find((t) => t.id === id);
 			task.isFav = !task.isFav;
-		},
-		const res = await fetch('http://localhost:3000/tasks/' + id, {
-        method: 'PATCH',
-        body: JSON.stringify({ isFav: task.isFav }),
-        headers: {'Content-Type': 'application/json'}
-      })
 
-      if (res.error) {
-        console.log(res.error)
-      }
+			const res = await fetch("http://localhost:3000/tasks/" + id, {
+				method: "PATCH",
+				body: JSON.stringify({ isFav: task.isFav }),
+				headers: { "Content-Type": "application/json" },
+			});
+
+			if (res.error) {
+				console.log(res.error);
+			}
+		},
 	},
 });

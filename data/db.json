@@ -1,35 +1,19 @@
 {
-	"tasks": [
-		{
-			"id": 1,
-
-			"title": "play gloomhaven",
-
-			"isFav": true
-		},
-
-		{
-			"id": 2,
-
-			"title": "mow the lawn",
-
-			"isFav": true
-		},
-
-		{
-			"title": "become an eldern lord",
-
-			"isFav": true,
-
-			"id": 3
-		},
-
-		{
-			"title": "eat some pinapples",
-
-			"isFav": false,
-
-			"id": 4
-		}
-	]
+  "tasks": [
+    {
+      "title": "estudos vue",
+      "isFav": true,
+      "id": 820565
+    },
+    {
+      "title": "estudos tailwind",
+      "isFav": false,
+      "id": 345597
+    },
+    {
+      "title": "estudos php",
+      "isFav": false,
+      "id": 515018
+    }
+  ]
 }
