@@ -44,6 +44,9 @@ export default {
 	setup() {
 		const taskStore = useTaskStore();
 
+		// fetch tasks
+		taskStore.getTasks();
+
 		const filter = ref("all");
 
 		return { taskStore, filter };

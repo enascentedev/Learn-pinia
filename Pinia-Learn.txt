@@ -52,7 +52,17 @@ sexta aula
 - adicionado funcionalidade da store para o componente TaskDetails
 
 -- ----- ----- -----
+setima aula
+
+ - mostrou o uso do vue devtools
 -- ----- ----- -----
+
+oitava aula
+
+- criou o data e adicionou um json com a lista de tarefas
+- adicionou o json server globalmente
+- adicionou algumas propriedades css
+
 -- ----- ----- -----
 -- ----- ----- -----
 -- ----- ----- -----
