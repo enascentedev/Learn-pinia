@@ -68,7 +68,13 @@ nona aula
 
 - modificou um item do json
 - modificou todas as actions para async e criou métodos http post, delete e patch
+
 -- ----- ----- -----
+
+décima aula
+
+- Adicionou o storeToRefs do pinia, é uma função do Pinia que é usada para converter as propriedades de uma loja Pinia em referências reativas. 
+- Criou um botão com uma propriedade nativa do pinia $reset que permite redefinir o estado de uma loja para seu estado inicial.
 -- ----- ----- -----
 -- ----- ----- -----
 -- ----- ----- -----
