@@ -31,7 +31,7 @@ npm run build
 ### Instalar Json server
 
 ```sh
-json-server -w ./data/db.json
+npm i -g json-server
 ```
 
 ### Rodar Json server
